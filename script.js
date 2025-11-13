@@ -1,3 +1,4 @@
+
 //stuff that happens on loading
 function preLoad(sectionButton){
     document.getElementById("projectButton").style.fontSize = "25px";
