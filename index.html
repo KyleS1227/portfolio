@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html>  
+    <head>
+        <link rel="stylesheet" type = "text/css" href = "style.css">
+        <title>Kyle Stapf</title>  
+    </head>
+    
+    <body onload= "preLoad('projectButton')">
+      <script defer src = "script.js" ></script>
+
+      <tabs>
+        <button type = "button" class = "tabButton" id = "projectButton">Projects</button>
+        <button type = "button" class = "tabButton" id = "personalButton" onclick="switchTab('personal.html')">Personal</button>
+        <button type = "button" class = "tabButton" id = "aboutButton" onclick="switchTab('about.html')">About me</button>
+      </tabs>
+
+      <projectsGallery>
+        <img class = "projectThumbnail" src = 'thumbnails/FrostMuseum.png' onclick = "showProject('FrostMuseum', 'processDocs/FrostMuseum', 15)">
+        <img class = "projectThumbnail" src = 'thumbnails/ThonLogo.png' onclick = "showProject('ThonLogo', 'processDocs/ThonLogo', 21)">
+        <cap>Frost Entomological Museum Poster</cap>
+        <cap>Thon Logo 2026</cap>
+        
+        
+
+        <img class = "projectThumbnail" src = 'thumbnails/Conservation.png' onclick = "showProject('Conservation', 'processDocs/Conservation', 8)">
+        <img class = "projectThumbnail" src = 'thumbnails/Muse.png' onclick = "showProject('Muse', 'processDocs/Muse', 11)">
+        <cap>Conservation Social Media Campaign</cap>
+        <cap>Muse App Design</cap>
+        
+
+        <img class = "projectThumbnail" src = 'thumbnails/DungeonTrap.png' onclick = "showProject('DungeonTrap', 'processDocs/DungeonTrap', 9)">
+        <img class = "projectThumbnail" src = 'thumbnails/AnimalIcons.png' onclick = "showProject('AnimalIcons', 'processDocs/AnimalIcons', 8)">
+        <cap>Dungeon Caution Signs</cap>
+        <cap>Animal Folklore Icons</cap>
+        
+      </projectsGallery>
+    </body>
+    <footer>
+      Kyle Stapf
+
+    </footer>
+</html>
