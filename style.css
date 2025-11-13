@@ -117,8 +117,8 @@ process{
 
 about{
     padding-top: 175px;
-    padding-left: 30vw;
-    padding-right: 30vw;
+    padding-left: 40vw;
+    padding-right: 40vw;
     display: grid;
     grid-template-columns: 1fr;
     
