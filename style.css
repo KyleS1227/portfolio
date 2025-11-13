@@ -117,16 +117,16 @@ process{
 
 about{
     padding-top: 175px;
-    padding-left: 8vw;
-    padding-right: 50vw;
+    padding-left: 30vw;
+    padding-right: 30vw;
     display: grid;
     grid-template-columns: 1fr;
-   
+    
 }
 
 content{
     font-family: "Golos Text";
-    font-size: 20px;
+    font-size: 25px;
 }
 footer{
     margin-top: 8vh;
