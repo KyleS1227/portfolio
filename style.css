@@ -48,7 +48,21 @@ projectsGallery{
     object-fit: cover;
     width: 40vw;
     height: 40vh;
-    cursor: pointer;
+    cursor: pointer;    
+}
+
+
+cap{
+    display: inline-block;
+    margin-top: -40vh;
+    background-color: #161619;
+    width: 40vw;
+    height: 40vh;
+    text-indent: 1vw;
+    margin-bottom: 3vw;
+    align-content: center;
+    font-family: "Golos Text";
+    font-size: 0px; 
     
 }
 
@@ -75,19 +89,6 @@ personalGallery{
 }
 
 
-cap{
-    display: inline-block;
-    margin-top: -40vh;
-    background-color: #161619;
-    width: 40vw;
-    height: 40vh;
-    text-indent: 1vw;
-    margin-bottom: 3vw;
-    align-content: center;
-    font-family: "Golos Text";
-    font-size: 0px; 
-    
-}
 
 
 process{
